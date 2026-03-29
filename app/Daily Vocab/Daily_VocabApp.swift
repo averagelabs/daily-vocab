@@ -1,0 +1,33 @@
+//
+//  Ascential_VocabApp.swift
+//  Daily Vocab
+//
+//  Created by Tanner Cheek on 2/19/26.
+//
+
+import SwiftUI
+import SwiftData
+
+@main
+struct Daily_VocabApp: App {
+    var sharedModelContainer: ModelContainer = {
+        let schema = Schema([
+            SavedWord.self,
+        ])
+        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+
+        do {
+            return try ModelContainer(for: schema, configurations: [modelConfiguration])
+        } catch {
+            fatalError("Could not create ModelContainer: \(error)")
+        }
+    }()
+
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+        .modelContainer(sharedModelContainer)
+    }
+}
+

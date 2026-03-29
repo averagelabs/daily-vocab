@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7BADB3D2F502B20005E8526 /* InstrumentSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB3A2F502B20005E8526 /* InstrumentSans-SemiBold.ttf */; };
+		D7BADB3E2F502B20005E8526 /* InstrumentSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB372F502B20005E8526 /* InstrumentSans-Bold.ttf */; };
+		D7BADB3F2F502B20005E8526 /* InstrumentSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB392F502B20005E8526 /* InstrumentSans-Regular.ttf */; };
+		D7BADB402F502B20005E8526 /* InstrumentSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB3B2F502B20005E8526 /* InstrumentSerif-Italic.ttf */; };
+		D7BADB412F502B20005E8526 /* InstrumentSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB382F502B20005E8526 /* InstrumentSans-Medium.ttf */; };
+		D7BADB422F502B20005E8526 /* InstrumentSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB3C2F502B20005E8526 /* InstrumentSerif-Regular.ttf */; };
+		D7BADB432F502B20005E8526 /* InstrumentSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB3A2F502B20005E8526 /* InstrumentSans-SemiBold.ttf */; };
+		D7BADB442F502B20005E8526 /* InstrumentSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB372F502B20005E8526 /* InstrumentSans-Bold.ttf */; };
+		D7BADB452F502B20005E8526 /* InstrumentSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB392F502B20005E8526 /* InstrumentSans-Regular.ttf */; };
+		D7BADB462F502B20005E8526 /* InstrumentSerif-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB3B2F502B20005E8526 /* InstrumentSerif-Italic.ttf */; };
+		D7BADB472F502B20005E8526 /* InstrumentSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB382F502B20005E8526 /* InstrumentSans-Medium.ttf */; };
+		D7BADB482F502B20005E8526 /* InstrumentSerif-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7BADB3C2F502B20005E8526 /* InstrumentSerif-Regular.ttf */; };
+		D7DD487B2F4834D900107A76 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DD487A2F4834D900107A76 /* WidgetKit.framework */; };
+		D7DD487D2F4834D900107A76 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DD487C2F4834D900107A76 /* SwiftUI.framework */; };
+		D7DD488E2F4834DB00107A76 /* Daily Vocab WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D7DD48782F4834D900107A76 /* Daily Vocab WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7DD488C2F4834DB00107A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7DD48592F482DAB00107A76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7DD48772F4834D900107A76;
+			remoteInfo = "Ascential Vocab WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D7DD48932F4834DB00107A76 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D7DD488E2F4834DB00107A76 /* Daily Vocab WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D7BADB372F502B20005E8526 /* InstrumentSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Bold.ttf"; sourceTree = "<group>"; };
+		D7BADB382F502B20005E8526 /* InstrumentSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Medium.ttf"; sourceTree = "<group>"; };
+		D7BADB392F502B20005E8526 /* InstrumentSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-Regular.ttf"; sourceTree = "<group>"; };
+		D7BADB3A2F502B20005E8526 /* InstrumentSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D7BADB3B2F502B20005E8526 /* InstrumentSerif-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSerif-Italic.ttf"; sourceTree = "<group>"; };
+		D7BADB3C2F502B20005E8526 /* InstrumentSerif-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InstrumentSerif-Regular.ttf"; sourceTree = "<group>"; };
+		D7DD48612F482DAB00107A76 /* Daily Vocab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Vocab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DD48782F4834D900107A76 /* Daily Vocab WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Daily Vocab WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DD487A2F4834D900107A76 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D7DD487C2F4834D900107A76 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D7ABE0832F49949A004DB87B /* Exceptions for "Daily Vocab" folder in "Daily Vocab WidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				DesignSystem.swift,
+				words.json,
+			);
+			target = D7DD48772F4834D900107A76 /* Daily Vocab WidgetExtension */;
+		};
+		D7FD4B602F73B018007B3729 /* Exceptions for "Daily Vocab Widget" folder in "Daily Vocab" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D7DD48602F482DAB00107A76 /* Daily Vocab */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D7DD48632F482DAB00107A76 /* Daily Vocab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D7ABE0832F49949A004DB87B /* Exceptions for "Daily Vocab" folder in "Daily Vocab WidgetExtension" target */,
+			);
+			path = "Daily Vocab";
+			sourceTree = "<group>";
+		};
+		D7DD487E2F4834D900107A76 /* Daily Vocab Widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D7FD4B602F73B018007B3729 /* Exceptions for "Daily Vocab Widget" folder in "Daily Vocab" target */,
+			);
+			path = "Daily Vocab Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7DD485E2F482DAB00107A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DD48752F4834D900107A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DD487D2F4834D900107A76 /* SwiftUI.framework in Frameworks */,
+				D7DD487B2F4834D900107A76 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7BADB362F502A92005E8526 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7BADB372F502B20005E8526 /* InstrumentSans-Bold.ttf */,
+				D7BADB382F502B20005E8526 /* InstrumentSans-Medium.ttf */,
+				D7BADB392F502B20005E8526 /* InstrumentSans-Regular.ttf */,
+				D7BADB3A2F502B20005E8526 /* InstrumentSans-SemiBold.ttf */,
+				D7BADB3B2F502B20005E8526 /* InstrumentSerif-Italic.ttf */,
+				D7BADB3C2F502B20005E8526 /* InstrumentSerif-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D7DD48582F482DAB00107A76 = {
+			isa = PBXGroup;
+			children = (
+				D7BADB362F502A92005E8526 /* Fonts */,
+				D7DD48632F482DAB00107A76 /* Daily Vocab */,
+				D7DD487E2F4834D900107A76 /* Daily Vocab Widget */,
+				D7DD48792F4834D900107A76 /* Frameworks */,
+				D7DD48622F482DAB00107A76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7DD48622F482DAB00107A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7DD48612F482DAB00107A76 /* Daily Vocab.app */,
+				D7DD48782F4834D900107A76 /* Daily Vocab WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7DD48792F4834D900107A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7DD487A2F4834D900107A76 /* WidgetKit.framework */,
+				D7DD487C2F4834D900107A76 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7DD48602F482DAB00107A76 /* Daily Vocab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DD486E2F482DAC00107A76 /* Build configuration list for PBXNativeTarget "Daily Vocab" */;
+			buildPhases = (
+				D7DD485D2F482DAB00107A76 /* Sources */,
+				D7DD485E2F482DAB00107A76 /* Frameworks */,
+				D7DD485F2F482DAB00107A76 /* Resources */,
+				D7DD48932F4834DB00107A76 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7DD488D2F4834DB00107A76 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D7DD48632F482DAB00107A76 /* Daily Vocab */,
+			);
+			name = "Daily Vocab";
+			packageProductDependencies = (
+			);
+			productName = "Ascential Vocab";
+			productReference = D7DD48612F482DAB00107A76 /* Daily Vocab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7DD48772F4834D900107A76 /* Daily Vocab WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7DD48902F4834DB00107A76 /* Build configuration list for PBXNativeTarget "Daily Vocab WidgetExtension" */;
+			buildPhases = (
+				D7DD48742F4834D900107A76 /* Sources */,
+				D7DD48752F4834D900107A76 /* Frameworks */,
+				D7DD48762F4834D900107A76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D7DD487E2F4834D900107A76 /* Daily Vocab Widget */,
+			);
+			name = "Daily Vocab WidgetExtension";
+			packageProductDependencies = (
+			);
+			productName = "Ascential Vocab WidgetExtension";
+			productReference = D7DD48782F4834D900107A76 /* Daily Vocab WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7DD48592F482DAB00107A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					D7DD48602F482DAB00107A76 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					D7DD48772F4834D900107A76 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = D7DD485C2F482DAB00107A76 /* Build configuration list for PBXProject "Daily Vocab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7DD48582F482DAB00107A76;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D7DD48622F482DAB00107A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7DD48602F482DAB00107A76 /* Daily Vocab */,
+				D7DD48772F4834D900107A76 /* Daily Vocab WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7DD485F2F482DAB00107A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BADB3D2F502B20005E8526 /* InstrumentSans-SemiBold.ttf in Resources */,
+				D7BADB3E2F502B20005E8526 /* InstrumentSans-Bold.ttf in Resources */,
+				D7BADB3F2F502B20005E8526 /* InstrumentSans-Regular.ttf in Resources */,
+				D7BADB402F502B20005E8526 /* InstrumentSerif-Italic.ttf in Resources */,
+				D7BADB412F502B20005E8526 /* InstrumentSans-Medium.ttf in Resources */,
+				D7BADB422F502B20005E8526 /* InstrumentSerif-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DD48762F4834D900107A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7BADB432F502B20005E8526 /* InstrumentSans-SemiBold.ttf in Resources */,
+				D7BADB442F502B20005E8526 /* InstrumentSans-Bold.ttf in Resources */,
+				D7BADB452F502B20005E8526 /* InstrumentSans-Regular.ttf in Resources */,
+				D7BADB462F502B20005E8526 /* InstrumentSerif-Italic.ttf in Resources */,
+				D7BADB472F502B20005E8526 /* InstrumentSans-Medium.ttf in Resources */,
+				D7BADB482F502B20005E8526 /* InstrumentSerif-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7DD485D2F482DAB00107A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7DD48742F4834D900107A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7DD488D2F4834DB00107A76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7DD48772F4834D900107A76 /* Daily Vocab WidgetExtension */;
+			targetProxy = D7DD488C2F4834DB00107A76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7DD486C2F482DAC00107A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7DD486D2F482DAC00107A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7DD486F2F482DAC00107A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily-Vocab-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7DD48702F482DAC00107A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily-Vocab-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7DD48912F4834DB00107A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily Vocab Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Vocab Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab.Ascential-Vocab-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7DD48922F4834DB00107A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily Vocab Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Vocab Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab.Ascential-Vocab-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7DD485C2F482DAB00107A76 /* Build configuration list for PBXProject "Daily Vocab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DD486C2F482DAC00107A76 /* Debug */,
+				D7DD486D2F482DAC00107A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DD486E2F482DAC00107A76 /* Build configuration list for PBXNativeTarget "Daily Vocab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DD486F2F482DAC00107A76 /* Debug */,
+				D7DD48702F482DAC00107A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7DD48902F4834DB00107A76 /* Build configuration list for PBXNativeTarget "Daily Vocab WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7DD48912F4834DB00107A76 /* Debug */,
+				D7DD48922F4834DB00107A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7DD48592F482DAB00107A76 /* Project object */;
+}
