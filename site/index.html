@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Daily Vocab — Offline daily vocabulary, calm by design</title>
+    <meta
+      name="description"
+      content="A peaceful, offline daily vocabulary app. One word a day, saved words, and simple spaced repetition—no account, no noise."
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Social -->
+    <meta property="og:title" content="Daily Vocab" />
+    <meta
+      property="og:description"
+      content="Offline daily vocabulary. Peaceful, anti-brain-rot by design."
+    />
+    <meta property="og:type" content="website" />
+    <!-- <meta property="og:image" content="https://my-domain.com/assets/og.png" /> -->
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="nav">
+        <a class="brand" href="#top" aria-label="Daily Vocab">
+          <img
+            class="brandIcon"
+            src="assets/images/tree-light.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <span class="logo"
+            >Daily <span style="font-style: italic">Vocab</span></span
+          >
+        </a>
+
+        <div class="navlinks">
+          <a class="btn primary" href="#download" aria-label="Download">
+            Download
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+
+      <main id="top">
+        <div class="hero">
+          <div class="container">
+            <div class="kicker">Offline by design</div>
+            <h1>
+              One word a day.<br /><span class="text-accent"
+                >Zero brain rot.</span
+              >
+            </h1>
+
+            <p class="lede">
+              Daily Vocab is a peaceful daily vocabulary app that works entirely
+              offline. No account. No feed. Just a word, a short definition, and
+              a simple review loop.
+            </p>
+
+            <div class="cta" id="download">
+              <a class="btn primary" href="#" title="App Store link"
+                >Get the app</a
+              >
+            </div>
+          </div>
+
+          <div class="phone" aria-label="App screenshot">
+            <img
+              class="bg-color"
+              src="assets/images/screen-home.png"
+              alt="Daily Vocab home screen showing today's word"
+            />
+          </div>
+        </div>
+
+        <div class="grid3" id="features">
+          <div class="card">
+            <img
+              src="assets/images/peaceful.svg"
+              alt="peaceful user without an account"
+            />
+            <h3>No account. No noise.</h3>
+            <p>
+              Open the app, get today’s word, save what you like. That’s it.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="assets/images/no-wifi.svg"
+              alt="radio signal because noe wifi is needed"
+            />
+            <h3>Works anywhere.</h3>
+            <p>
+              All words are stored locally. No internet required. No tracking.
+            </p>
+          </div>
+          <div class="card">
+            <img
+              src="assets/images/review-icon.svg"
+              alt="graph showing spaced repetition timing."
+            />
+            <h3>Simple spaced repetition.</h3>
+            <p>
+              Saved words come back as quick flashcards—easy, lightweight,
+              effective.
+            </p>
+          </div>
+        </div>
+
+        <section id="screens">
+          <div class="sectionTitle">
+            <div>
+              <div class="kicker">All you need</div>
+              <h2 class="screensTitle">
+                A minimal flow that sticks<br />
+                <span class="subdued">See → Save → Test → Learn.</span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="shots">
+            <div class="shot">
+              <div class="shotVisual">
+                <img
+                  src="assets/images/screen-home-light.png"
+                  alt="Home screen with the word of the day"
+                />
+              </div>
+              <div class="card-text">
+                <p class="bold">Home</p>
+                <div class="cap">
+                  View Today's Word, and save it if you want to learn it
+                </div>
+              </div>
+            </div>
+            <div class="shot">
+              <div class="shotVisual">
+                <img
+                  src="assets/images/screen-mywords.png"
+                  alt="Today's word"
+                />
+              </div>
+              <div class="card-text">
+                <p class="bold">My Words</p>
+                <div class="cap">View your collection of saved words</div>
+              </div>
+            </div>
+            <div class="shot">
+              <div class="shotVisual">
+                <img
+                  src="assets/images/screen-review-front.png"
+                  alt="List of saved words"
+                />
+              </div>
+              <div class="card-text">
+                <p class="bold">Test Yourself</p>
+                <div class="cap">
+                  Choose "know it" or "didn't know" to update the spaced
+                  repetition algorithm
+                </div>
+              </div>
+            </div>
+            <div class="shot">
+              <div class="shotVisual">
+                <img
+                  src="assets/images/screen-review-back.png"
+                  alt="Flashcard review back side with definition"
+                />
+              </div>
+              <div class="card-text">
+                <p class="bold">Review</p>
+                <div class="cap">
+                  view the definition and an example to refresh your memory
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid2">
+          <div class="card-dark">
+            <h3>
+              Dark Mode<br />
+              <span class="text-accent">For late night learning</span>
+            </h3>
+            <div class="grid2Phone">
+              <img
+                src="assets/images/screen-home.png"
+                alt="Home screen with the word of the day"
+              />
+            </div>
+          </div>
+          <div class="card-light">
+            <h3>
+              Widget<br />
+              <span class="subdued">For Daily Access</span>
+            </h3>
+            <div class="grid2Phone">
+              <img
+                src="assets/images/widget-screen.png"
+                alt="Home screen with the word of the day"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="card ctaCard">
+            <div>
+              <img
+                class="app-icon"
+                src="assets/images/app-icon.png"
+                alt="app icon"
+              />
+              <h2 class="ctaTitle">Start tomorrow with a better word.</h2>
+              <p class="ctaCopy">Free, offline, and intentionally small.</p>
+              <br />
+              <a href="#" title="App Store link"
+                ><img src="assets/images/app-store-badge.svg" alt=""
+              /></a>
+            </div>
+            <img src="assets/images/book-light.png" alt="book-icon" />
+          </div>
+        </section>
+
+        <div class="footer">
+          <div class="footerRow">
+            <div>
+              © <span id="year"></span> Average Labs. All rights reserved.
+            </div>
+            <div class="footerLinks">
+              <a href="#" title="Website">Website</a>
+              <a href="mailto:averagelabsco@gmail.com" title="Email">Contact</a>
+              <!-- <a href="#privacy" title="Privacy">Privacy</a> -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
