@@ -71,12 +71,12 @@
 			);
 			target = D7DD48772F4834D900107A76 /* Daily Vocab WidgetExtension */;
 		};
-		D7FD4B602F73B018007B3729 /* Exceptions for "Daily Vocab Widget" folder in "Daily Vocab" target */ = {
+		D7DEB9902F79E1A400990A7D /* Exceptions for "Daily Vocab Widget" folder in "Daily Vocab WidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D7DD48602F482DAB00107A76 /* Daily Vocab */;
+			target = D7DD48772F4834D900107A76 /* Daily Vocab WidgetExtension */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -92,7 +92,7 @@
 		D7DD487E2F4834D900107A76 /* Daily Vocab Widget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D7FD4B602F73B018007B3729 /* Exceptions for "Daily Vocab Widget" folder in "Daily Vocab" target */,
+				D7DEB9902F79E1A400990A7D /* Exceptions for "Daily Vocab Widget" folder in "Daily Vocab WidgetExtension" target */,
 			);
 			path = "Daily Vocab Widget";
 			sourceTree = "<group>";
@@ -444,7 +444,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab";
+				PRODUCT_BUNDLE_IDENTIFIER = AverageLabs.DailyVocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -476,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab";
+				PRODUCT_BUNDLE_IDENTIFIER = AverageLabs.DailyVocab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -495,7 +495,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Daily Vocab Widget/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Daily Vocab Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -505,7 +505,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab.Ascential-Vocab-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = AverageLabs.DailyVocab.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -524,7 +524,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = "Daily Vocab Widget/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Daily Vocab Widget";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -534,7 +534,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "AverageLabs.Ascential-Vocab.Ascential-Vocab-Widget";
+				PRODUCT_BUNDLE_IDENTIFIER = AverageLabs.DailyVocab.Widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

@@ -1,5 +1,5 @@
 //
-//  Ascential_Vocab_WidgetBundle.swift
+//  Daily_Vocab_WidgetBundle.swift
 //  Daily Vocab Widget
 //
 //  Created by Tanner Cheek on 2/19/26.

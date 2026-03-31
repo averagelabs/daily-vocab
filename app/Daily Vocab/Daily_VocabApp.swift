@@ -1,5 +1,5 @@
 //
-//  Ascential_VocabApp.swift
+//  Daily_VocabApp.swift
 //  Daily Vocab
 //
 //  Created by Tanner Cheek on 2/19/26.

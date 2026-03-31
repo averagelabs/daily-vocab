@@ -39,7 +39,7 @@ struct SettingsView: View {
             }
 
             Section("Links") {
-                Link(destination: URL(string: "https://example.com/daily-vocab-site")!) {
+                Link(destination: URL(string: "https://averagelabs.github.io/daily-vocab/")!) {
                     Label("Website", systemImage: "globe")
                 }
 //                Link(destination: URL(string: "https://example.com/privacy")!) {

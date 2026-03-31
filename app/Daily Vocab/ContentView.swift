@@ -6,20 +6,24 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
   @AppStorage("appearance") private var appearance: String = "system"
     
     init() {
-            let largeTitleAttributes: [NSAttributedString.Key: Any] = [
-                .font: UIFont(name: "InstrumentSerif-Regular", size: 36)!
+        // Apply custom navigation bar fonts if available; avoid force-unwrapping to prevent crashes
+        if let largeTitleFont = UIFont(name: "InstrumentSerif-Regular", size: 36) {
+            UINavigationBar.appearance().largeTitleTextAttributes = [
+                .font: largeTitleFont
             ]
-            let titleAttributes: [NSAttributedString.Key: Any] = [
-                .font: UIFont(name: "InstrumentSerif-Regular", size: 17)!
-            ]
-            UINavigationBar.appearance().largeTitleTextAttributes = largeTitleAttributes
-            UINavigationBar.appearance().titleTextAttributes = titleAttributes
         }
+        if let titleFont = UIFont(name: "InstrumentSerif-Regular", size: 17) {
+            UINavigationBar.appearance().titleTextAttributes = [
+                .font: titleFont
+            ]
+        }
+    }
 
   var body: some View {
     TabView {
